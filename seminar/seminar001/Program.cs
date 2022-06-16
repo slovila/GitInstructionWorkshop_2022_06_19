@@ -4,11 +4,11 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if(numberB == numberA * numberA) 
+if(numberA == numberB * numberB) 
 {
-    Console.WriteLine("Второе число является квадратом первого");
+    Console.WriteLine("Первое число является квадратом второго");
 }
-if(numberB != numberA * numberA) 
+if(numberA != numberB * numberB) 
 {
-    Console.WriteLine("Второе число НЕ является квадратом первого");
+    Console.WriteLine("Первое  число НЕ является квадратом второго");
 }
