@@ -5,10 +5,7 @@
     while (index < lenght)
     {
         collection[index] = new Random().Next(1, 10);
-
-
         index++;
-
     }
 }
 void PrintArray(int[] col)
