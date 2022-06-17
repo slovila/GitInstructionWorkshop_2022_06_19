@@ -2,7 +2,7 @@
 int count = -number;
 while (count <= number)
 {
-    Console.WriteLine(count);
+    Console.Write(count);
     count++;
 }
 
