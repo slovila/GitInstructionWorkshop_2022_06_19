@@ -8,7 +8,7 @@ if(numberA == numberB * numberB)
 {
     Console.WriteLine("Первое число является квадратом второго");
 }
-if(numberA != numberB * numberB) 
+else 
 {
     Console.WriteLine("Первое  число НЕ является квадратом второго");
 }
