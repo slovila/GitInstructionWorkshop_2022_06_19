@@ -7,10 +7,11 @@ int index = numberOfWeek - 1;
 Console.Write("Этот день недели - ");
 Console.WriteLine(array[index]);
 Console.WriteLine("Количество символов в названии дней недели: ");
-while (count < 7)
+while (count < array.Length)
 {
 
     Console.WriteLine(array[count] + "  " + array[count].Length + "   символов");
     count++;
 
 }
+Console.WriteLine(array[0] + array[4] + array[2] + array[5]);
