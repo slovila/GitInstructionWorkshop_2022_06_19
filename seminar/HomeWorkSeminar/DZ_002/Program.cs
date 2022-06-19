@@ -1,4 +1,7 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿ /*Напишите программу, которая принимает на
+вход три числа и выдаёт максимальное из этих чисел.*/
+
+int Max(int arg1, int arg2, int arg3)
 {
     int result = arg1;
     if(arg2 > result) result = arg2;
